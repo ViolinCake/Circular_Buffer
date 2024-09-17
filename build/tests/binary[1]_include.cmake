@@ -1,0 +1,5 @@
+if(EXISTS "/home/kenjhin/Desktop/workspace/Circular_Buffer/build/tests/binary[1]_tests.cmake")
+  include("/home/kenjhin/Desktop/workspace/Circular_Buffer/build/tests/binary[1]_tests.cmake")
+else()
+  add_test(binary_NOT_BUILT binary_NOT_BUILT)
+endif()
